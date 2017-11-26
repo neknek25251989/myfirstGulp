@@ -1,0 +1,121 @@
+@single_upload_color: #fc7b53;
+@book_upload_color: #8d58bc;
+@easy_upload_color: #4ab4e7;
+@excel_upload_color: #4a9b4d;
+@back_ground_color: #fff;
+@content_color: #919191;
+@content_padding: 30px 13px;
+@border_type: 1px solid #ececec;
+@content_margin: 5px;
+@content_width: 20%;
+@buttom_display: block;
+@text-align: center;
+@buttom_letter_color: #fff;
+@buttom_line_height: 4;
+
+clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1; /*For IE 6&7 only*/
+}
+ul {
+  list-style-type: none;
+}
+.header {
+  background-color: @back_ground_color;
+  color: #fff;
+}
+.header-left {
+  float: left;
+}
+.header-right {
+  float: right;
+}
+input {
+  padding: 0 10px;
+  background-color: #EAECEF
+}
+
+.breadcrumb {
+  background-color: @back_ground_color;
+  color: #fff;
+  float: left;
+}
+.single_upload{
+  background-color: @back_ground_color;
+  color: @single_upload_color;
+  float: left;
+  padding: @content_padding;
+  border: @border_type;
+  margin: @content_margin;
+  width: @content_width;
+  text-align: @text-align;
+}
+.single_upload_buttom {
+  display: @buttom_display;
+  color: @buttom_letter_color;
+  background-color: @single_upload_color;
+  line-height: @buttom_line_height;
+}
+
+.book_upload {
+  background-color: @back_ground_color;
+  color: @book_upload_color;
+  float: left;
+  padding: @content_padding;
+  border: @border_type;
+  margin: @content_margin;
+  width: @content_width;
+  text-align: @text-align;
+}
+.book_upload_buttom {
+  display: @buttom_display;
+  color: @buttom_letter_color;
+  background-color: @book_upload_color;
+  line-height: @buttom_line_height;
+}
+.easy_upload {
+  background-color: @back_ground_color;
+  color: @easy_upload_color;
+  float: left;
+  padding: @content_padding;
+  border: @border_type;
+  margin: @content_margin;
+  width: @content_width;
+  text-align: @text-align;
+}
+.easy_upload_buttom {
+  display: @buttom_display;
+  color: @buttom_letter_color;
+  background-color: @easy_upload_color;
+  line-height: @buttom_line_height;
+}
+.excel_upload {
+  background-color: @back_ground_color;
+  color: @excel_upload_color;
+  float: left;
+  padding: @content_padding;
+  border: @border_type;
+  margin: @content_margin;
+  width: @content_width;
+  text-align: @text-align;
+}
+.excel_upload_buttom {
+  display: @buttom_display;
+  color: @buttom_letter_color;
+  background-color: @excel_upload_color;
+  line-height: @buttom_line_height;
+}
+
+li {
+  color: @content_color;
+  font-size: 13px;
+  padding: 0px;
+  text-align: left;
+}
