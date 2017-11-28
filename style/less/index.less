@@ -12,6 +12,7 @@
 @text-align: center;
 @buttom_letter_color: #fff;
 @buttom_line_height: 4;
+@input-div-color: #EAECEF;
 
 clearfix:before,
 .clearfix:after {
@@ -24,8 +25,11 @@ clearfix:before,
 .clearfix {
   *zoom: 1; /*For IE 6&7 only*/
 }
-ul {
+.head-ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 .header {
   background-color: @back_ground_color;
@@ -39,13 +43,17 @@ ul {
 }
 input {
   padding: 0 10px;
-  background-color: #EAECEF
 }
-
+.input-div {
+  background-color: @input-div-color;
+}
 .breadcrumb {
   background-color: @back_ground_color;
-  color: #fff;
+  color: #000;
   float: left;
+}
+.bread-crumb-ul{
+  
 }
 .single_upload{
   background-color: @back_ground_color;
@@ -116,6 +124,8 @@ input {
 li {
   color: @content_color;
   font-size: 13px;
-  padding: 0px;
-  text-align: left;
+  padding: 10px;
+  text-align: center;
+  width: 71px;
+  height: 40px;
 }
