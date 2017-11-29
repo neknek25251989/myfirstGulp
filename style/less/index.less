@@ -1,18 +1,27 @@
-@single_upload_color: #fc7b53;
-@book_upload_color: #8d58bc;
-@easy_upload_color: #4ab4e7;
-@excel_upload_color: #4a9b4d;
-@back_ground_color: #fff;
-@content_color: #919191;
-@content_padding: 30px 13px;
-@border_type: 1px solid #ececec;
-@content_margin: 5px;
-@content_width: 20%;
-@buttom_display: block;
+@single-upload-color: #fc7b53;
+@single-upload-border-color: #ffcaba;
+@book-upload-color: #8d58bc;
+@book-upload-border-color: #cbb5df;
+@easy-upload-color: #4ab4e7;
+@easy-upload-border-color: #abdbf2;
+@excel-upload-color: #4a9b4d;
+@excel-upload-border-color: #afd7b0;
+@back-ground-color: #fff;
+@content-color: #919191;
+@content-padding: 30px 13px;
+@content-box-shadow-single: inset 0 5px 0 #ffcaba;
+@content-box-shadow-book: inset 0 5px 0 #cbb5df;
+@content-box-shadow-easy: inset 0 5px 0 #abdbf2;
+@content-box-shadow-excel: inset 0 5px 0 #afd7b0;
+@border-type: 1px solid #ececec;
+@content-margin: 5px;
+@content-width: 20%;
+@buttom-display: block;
 @text-align: center;
-@buttom_letter_color: #fff;
-@buttom_line_height: 4;
+@buttom-letter-color: #fff;
+@buttom-line-height: 4;
 @input-div-color: #EAECEF;
+
 
 clearfix:before,
 .clearfix:after {
@@ -32,7 +41,7 @@ clearfix:before,
   overflow: hidden;
 }
 .header {
-  background-color: @back_ground_color;
+  background-color: @back-ground-color;
   color: #fff;
 }
 .header-left {
@@ -48,84 +57,97 @@ input {
   background-color: @input-div-color;
 }
 .breadcrumb {
-  background-color: @back_ground_color;
+  background-color: @back-ground-color;
   color: #000;
   float: left;
 }
 .bread-crumb-ul{
   
 }
-.single_upload{
-  background-color: @back_ground_color;
-  color: @single_upload_color;
+.single-upload{
+  background-color: @back-ground-color;
+  color: @single-upload-color;
   float: left;
-  padding: @content_padding;
-  border: @border_type;
-  margin: @content_margin;
-  width: @content_width;
+  padding: @content-padding;
+  border: @border-type;
+  border-top-color: @single-upload-border-color; 
+  box-shadow: @content-box-shadow-single;
+  margin: @content-margin;
+  width: @content-width;
   text-align: @text-align;
 }
-.single_upload_buttom {
-  display: @buttom_display;
-  color: @buttom_letter_color;
-  background-color: @single_upload_color;
-  line-height: @buttom_line_height;
+.single-upload-buttom {
+  display: @buttom-display;
+  color: @buttom-letter-color;
+  background-color: @single-upload-color;
+  line-height: @buttom-line-height;
 }
 
-.book_upload {
-  background-color: @back_ground_color;
-  color: @book_upload_color;
+.book-upload {
+  background-color: @back-ground-color;
+  color: @book-upload-color;
   float: left;
-  padding: @content_padding;
-  border: @border_type;
-  margin: @content_margin;
-  width: @content_width;
+  padding: @content-padding;
+  border: @border-type;
+  border-top-color: @book-upload-border-color; 
+  box-shadow: @content-box-shadow-book;
+  margin: @content-margin;
+  width: @content-width;
   text-align: @text-align;
 }
-.book_upload_buttom {
-  display: @buttom_display;
-  color: @buttom_letter_color;
-  background-color: @book_upload_color;
-  line-height: @buttom_line_height;
+.book-upload-buttom {
+  display: @buttom-display;
+  color: @buttom-letter-color;
+  background-color: @book-upload-color;
+  line-height: @buttom-line-height;
 }
-.easy_upload {
-  background-color: @back_ground_color;
-  color: @easy_upload_color;
+.easy-upload {
+  background-color: @back-ground-color;
+  color: @easy-upload-color;
   float: left;
-  padding: @content_padding;
-  border: @border_type;
-  margin: @content_margin;
-  width: @content_width;
+  padding: @content-padding;
+  border: @border-type;
+  border-top-color: @easy-upload-border-color; 
+  box-shadow: @content-box-shadow-easy;
+  margin: @content-margin;
+  width: @content-width;
   text-align: @text-align;
 }
-.easy_upload_buttom {
-  display: @buttom_display;
-  color: @buttom_letter_color;
-  background-color: @easy_upload_color;
-  line-height: @buttom_line_height;
+.easy-upload-buttom {
+  display: @buttom-display;
+  color: @buttom-letter-color;
+  background-color: @easy-upload-color;
+  line-height: @buttom-line-height;
 }
-.excel_upload {
-  background-color: @back_ground_color;
-  color: @excel_upload_color;
+.excel-upload {
+  background-color: @back-ground-color;
+  color: @excel-upload-color;
   float: left;
-  padding: @content_padding;
-  border: @border_type;
-  margin: @content_margin;
-  width: @content_width;
+  padding: @content-padding;
+  border: @border-type;
+  border-top-color: @easy-upload-border-color;
+  box-shadow: @content-box-shadow-excel;
+  margin: @content-margin;
+  width: @content-width;
   text-align: @text-align;
 }
-.excel_upload_buttom {
-  display: @buttom_display;
-  color: @buttom_letter_color;
-  background-color: @excel_upload_color;
-  line-height: @buttom_line_height;
+.excel-upload-buttom {
+  display: @buttom-display;
+  color: @buttom-letter-color;
+  background-color: @excel-upload-color;
+  line-height: @buttom-line-height;
 }
 
-li {
-  color: @content_color;
+.header-li {
+  color: @content-color;
   font-size: 13px;
   padding: 10px;
   text-align: center;
   width: 71px;
   height: 40px;
+}
+li {
+  color: @content-color;
+  font-size: 13px;
+  padding: 0px;
 }
