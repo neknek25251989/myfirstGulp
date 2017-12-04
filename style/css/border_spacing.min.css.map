@@ -1,0 +1,1 @@
+{"version":3,"sources":["border_spacing.less"],"names":[],"mappings":"AAAA,MACE,eAAA,IAEF,MAAW,GAAJ,GACL,OAAA,IAAA,MAAA,KAEF,GACE,MAAA,KACA,iBAAA","file":"border_spacing.min.css","sourcesContent":["table {\r\n  border-spacing: 1em;\r\n}\r\ntable, th, td {\r\n  border: 3px solid #999;\r\n}\r\nth {\r\n  color: #000;\r\n  background-color: #ccc;\r\n}"]}
