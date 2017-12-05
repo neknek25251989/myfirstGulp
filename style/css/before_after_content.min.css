@@ -1,0 +1,2 @@
+.note:before{content:url(https://dummyimage.com/20x20/000/fff)}.warning:before{content:"[注意]";color:red;background:#fff}div.info{border:dotted 3px #f90;padding:.2em 1.3em}q{quotes:"[" "]"}q:before{content:open-quote}q:after{content:close-quote}
+/*# sourceMappingURL=before_after_content.min.css.map */
