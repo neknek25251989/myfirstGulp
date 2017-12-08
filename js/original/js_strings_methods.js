@@ -24,3 +24,17 @@ function myFunction1() {
   var txt = str.replace('Microsoft','W3School');
   document.getElementById('demo9').innerHTML = txt;
 }
+function myFunction2() {
+  var str = document.getElementById('demo10').innerHTML;
+  var txt = str.replace(/Microsoft/g,'W3School');
+  document.getElementById('demo10').innerHTML = txt;
+}
+function myFunction3() {
+  var text = document.getElementById('demo11').innerHTML;
+  document.getElementById('demo11').innerHTML = text.toUpperCase();
+}
+function myFunction4() {
+  var text1 = 'Hello';
+  var text2 = 'World!';
+  document.getElementById('demo12').innerHTML = text1.concat(' ',text2);
+}

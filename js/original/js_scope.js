@@ -1,6 +1,6 @@
 myFunction1();
 document.getElementById('demo1').innerHTML =
-'The type of carName is ' + typeof carName;
+'The type of carName is ' + typeof carName1;
 function myFunction1() {
   var carName1 = 'Volvo';
 }
