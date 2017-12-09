@@ -168,13 +168,13 @@
     $(window).scroll(function () {
       console.log( $(window).scrollTop());
     var h = $(window).scrollTop();
-    //取得螢幕的高度
+    //取得捲動的距離(與top的距離)
     if (h > 100) {
       $('.ui-gotop').css('display', 'block')
-    }  
+    }  //距離大於100時 顯示
     else {
       $('.ui-gotop').css('display', 'none')
-    }
+    } //除此之外 隱藏
     })
 
     //如果捲動800px 
