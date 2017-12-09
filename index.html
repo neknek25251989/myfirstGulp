@@ -7,10 +7,11 @@
 <body>
   <header class="clearfix">
     <a href="#" class="header-left">
-      <img src="https://dummyimage.com/60x28/000/fff" alt="Ruten Logo">
+      <img src="https://www.ruten.com.tw/images/logo_s.gif" alt="Ruten Logo">
     </a>
     <a href="#" class="header-left">usernick123</a>
-    <a href="#" class="header-left"><img src="https://dummyimage.com/40x40/000/fff">登出</a>
+    <a href="#" class="header-left"><img src="https://www.ruten.com.tw/images/rt_messenger/messenger_icon.png?v=20171121"></a>
+    <a href="#">登出</a>
     <div class="clearfix header-right">
       <input type="text" value="請輸入關鍵字" class="header-left"><input type="submit" name="submit" class="header-left">
       <ul class="header-left">
@@ -166,7 +167,6 @@
   <script src="./js/minify/index.min.js"></script>
   <script>
     $(window).scroll(function () {
-      console.log( $(window).scrollTop());
     var h = $(window).scrollTop();
     //取得捲動的距離(與top的距離)
     if (h > 100) {
@@ -175,6 +175,9 @@
     else {
       $('.ui-gotop').css('display', 'none')
     } //除此之外 隱藏
+    })
+    $('.ui-gotop').click(function() {
+      $('html,body').animate({scrollTop:0},'fast');
     })
 
     //如果捲動800px 
