@@ -38,3 +38,26 @@ function myFunction4() {
   var text2 = 'World!';
   document.getElementById('demo12').innerHTML = text1.concat(' ',text2);
 }
+function myFunction5() {
+  var str = 'Hello World';
+  document.getElementById('demo13').innerHTML = str.charAt(1);
+} 
+function myFunction6() {
+  var str = 'HELLO WORLD';
+  document.getElementById('demo14').innerHTML = str.charCodeAt(1);
+}
+function myFunction7() {
+  var str = 'a,b,c,d,e,f';
+  var arr = str.split(',');
+  document.getElementById('demo15').innerHTML = arr[0];
+}
+function myFunction8() {
+  var str = 'Hello';
+  var arr = str.split('');
+  var text = '';
+  var i;
+  for (i = 0; i < arr.length; i++) {
+    text += arr[i] + '<br>'
+  }
+  document.getElementById('demo16').innerHTML = text;
+}
