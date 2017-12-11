@@ -3,11 +3,17 @@
 @content-box-shadow-easy: inset 0 5px 0 #abdbf2;
 @content-box-shadow-excel: inset 0 5px 0 #afd7b0;
 
+.whole-panel {
+  margin: auto;
+  box-sizing: border-box;
+  text-align: center;
+}
 .panel-default {
   background-color: #fff;
   float: left;
   padding: 30px 13px;
   border: 1px solid #ececec;
+  border-radius: 5px;
   margin: 5px;
   width: 20%;
   text-align: center;
@@ -15,18 +21,26 @@
 
 .single-upload {
   color: #fc7b53;
+  border-top-color: #ffcaba;
+  box-shadow: @content-box-shadow-single;
 }
 
 .book-upload {
   color: #8d58bc;
+  border-top-color: #cbb5df;
+  box-shadow: @content-box-shadow-book;
 }
 
 .easy-upload {
   color: #4ab4e7;
+  border-top-color: #abdbf2;
+  box-shadow: @content-box-shadow-easy;
 }
 
 .excel-upload {
   color: #4a9b4d;
+  border-top-color: #afd7b0;
+  box-shadow: @content-box-shadow-excel;
 }
 
 .panel-list {
