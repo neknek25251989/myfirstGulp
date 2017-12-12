@@ -36,3 +36,14 @@ function myFunction6() {
   fruits[fruits.length] = 'Kiwi';
   document.getElementById('demo65').innerHTML = fruits;
 }
+function myFunction7() {
+  var fruits = ['Banana', 'Orange', 'Apple', 'Mango'];
+  document.getElementById('demo7').innerHTML = fruits;
+  fruits.splice(2, 0, 'Lemon', 'Kiwi'); //2代表要被加入的位置，0代表要被移除的數量
+  document.getElementById('demo75').innerHTML = fruits;
+}
+function mySlice() {
+  var fruits = ['Banana', 'Orange', 'Apple', 'Mango'];
+  var citrus = fruits.slice(1, 3);
+  document.getElementById('demo8').innerHTML = fruits + '<br><br>' + citrus;
+}
