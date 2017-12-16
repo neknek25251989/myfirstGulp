@@ -6,16 +6,16 @@
     }, opts);
     // main function
     function init(obj) {
-      // $(window).scroll(function() {
-      //   var h = $(window).scrollTop();
-      //   //取得捲動的距離(與top的距離)
-      //   if (h > 100) {
-      //     $(obj).css('display', 'block');
-      //   } //距離大於100時 顯示
-      //   else {
-      //     $(obj).css('display', 'none');
-      //   } //除此之外 隱藏
-      // })
+      $(window).scroll(function() {
+        var h = $(window).scrollTop();
+        //取得捲動的距離(與top的距離)
+        if (h > 100) {
+          $(obj).css('display', 'block');
+        } //距離大於100時 顯示
+        else {
+          $(obj).css('display', 'none');
+        } //除此之外 隱藏
+      })
       $(obj).css('display', 'block');
       $(obj).click(function() {
         $('html,body').animate({
