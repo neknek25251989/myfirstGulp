@@ -1,4 +1,4 @@
-.whole-panel {
+.panel-container {
   margin: auto;
   box-sizing: border-box;
   text-align: center;
@@ -14,24 +14,40 @@
   width: 20%;
   text-align: center;
   box-shadow: inset 0 5px 0;
+  &.abc {
+    color: red;
+  }
 }
 
+.single.abc{
+  color:red;
+}
+.single{
+  &.abc {
+    color: red;
+  }
+}
+/*mixin*/
 .single-upload {
+  .panel-default;
   color: #fc7b53;
   border-top-color: #ffcaba;
 }
 
 .book-upload {
+  .panel-default;
   color: #8d58bc;
   border-top-color: #cbb5df;
 }
 
 .easy-upload {
+  .panel-default;
   color: #4ab4e7;
   border-top-color: #abdbf2;
 }
 
 .excel-upload {
+  .panel-default;
   color: #4a9b4d;
   border-top-color: #afd7b0;
 }

@@ -164,34 +164,7 @@
   </div> -->
   <footer>Footer</footer>
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="./js/minify/jquery.scrolltop.min.js"></script>
   <script src="./js/minify/index.min.js"></script>
-  <script>
-    $(window).scroll(function () {
-    var h = $(window).scrollTop();
-    //取得捲動的距離(與top的距離)
-    if (h > 100) {
-      $('.ui-gotop').css('display', 'block')
-    }  //距離大於100時 顯示
-    else {
-      $('.ui-gotop').css('display', 'none')
-    } //除此之外 隱藏
-    })
-    $('.ui-gotop').click(function() {
-      $('html,body').animate({scrollTop:0},'fast');
-    })
-
-    //如果捲動800px 
-    //將隱藏的圖示顯示出來
-
-    // $('.modal .close').click(function(e) {
-    //   $('.modal').hide()
-    // });
-
-
-    
-      // click
-      // hover
-      // scroll
-  </script>
 </body>
 </html>
