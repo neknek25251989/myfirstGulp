@@ -1,0 +1,1 @@
+{"version":3,"sources":["ui-breadcrumbs.less"],"names":[],"mappings":"AAAA,YACE,QAAA,KACA,eAAA,IAGF,oBACE,OAAA,KAAA","file":"ui-breadcrumbs.min.css","sourcesContent":[".breadcrumb {\r\n  display: flex;\r\n  flex-direction: row;\r\n}\r\n\r\n.breadcrumb-content {\r\n  margin: 30px auto;\r\n}"]}
