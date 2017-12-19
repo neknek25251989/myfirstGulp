@@ -1,21 +1,27 @@
 .header {
-  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1250px;
 }
 .header-left {
   float: left;
   padding: 0 15px;
-  line-height: 20px;
+  height: 40px;
+  line-height: 40px;
   list-style-type: none;
+  vertical-align: middle;
 }
 
-.header-right {
-  float: right;
-}
 .header-nav {
-  float: left;
-  padding: 0 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.header-nav-li {
   border-left: 1px solid #e6e9ed;
   border-right: 1px solid #e6e9ed;
   line-height: 38px;
   vertical-align: middle;
+  color: #006AB4;
+  padding: 0 10px;
 }

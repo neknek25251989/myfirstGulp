@@ -1,2 +1,2 @@
-.header{margin:0 auto}.header-left{float:left;padding:0 15px;line-height:20px;list-style-type:none}.header-right{float:right}.header-nav{float:left;padding:0 10px;border-left:1px solid #e6e9ed;border-right:1px solid #e6e9ed;line-height:38px;vertical-align:middle}
+.header{display:flex;justify-content:space-between;max-width:1250px}.header-left{float:left;padding:0 15px;height:40px;line-height:40px;list-style-type:none;vertical-align:middle}.header-nav{display:flex;justify-content:flex-start}.header-nav-li{border-left:1px solid #e6e9ed;border-right:1px solid #e6e9ed;line-height:38px;vertical-align:middle;color:#006ab4;padding:0 10px}
 /*# sourceMappingURL=ui-header.min.css.map */
