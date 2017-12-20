@@ -1,0 +1,1 @@
+{"version":3,"sources":["jquery_eq_selector.less"],"names":[],"mappings":"AAAA,KACE,MAAA,KACA,iBAAA","file":"jquery_eq_selector.min.css","sourcesContent":[".foo {\r\n  color: #0000ff;\r\n  background-color: #00ffff;\r\n}"]}
