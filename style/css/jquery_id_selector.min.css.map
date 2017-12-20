@@ -1,0 +1,1 @@
+{"version":3,"sources":["jquery_id_selector.less"],"names":[],"mappings":"AAAA,IACE,MAAA,KACA,OAAA,KACA,MAAA,KACA,QAAA,IACA,OAAA,IACA,iBAAA","file":"jquery_id_selector.min.css","sourcesContent":["div {\r\n  width: 90px;\r\n  height: 90px;\r\n  float: left;\r\n  padding: 5px;\r\n  margin: 5px;\r\n  background-color: #eee;\r\n}"]}
