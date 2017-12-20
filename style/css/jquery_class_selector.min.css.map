@@ -1,0 +1,1 @@
+{"version":3,"sources":["jquery_class_selector.less"],"names":[],"mappings":"AAAA,IAAK,KACH,MAAA,MACA,OAAA,KACA,MAAA,KACA,QAAA,KACA,OAAA,KACA,WAAA","file":"jquery_class_selector.min.css","sourcesContent":["div, span {\r\n  width: 120px;\r\n  height: 40px;\r\n  float: left;\r\n  padding: 10px;\r\n  margin: 10px;\r\n  background: #eee;\r\n}"]}
