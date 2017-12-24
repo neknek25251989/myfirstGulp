@@ -7,34 +7,22 @@
     // main function
     function init(obj) {
       $('.buttonClick').click(function() {
-        $('.ui-popup').show('slow', function()  {
-            
-        });
-        $('.buttonClick').hide('slow', function() {
-          
-        });
+        $('.ui-popup').addClass('show');
+        $('.buttonClick').addClass('hide');
       });
       $('.popup-accept').click(function() {
-        $('.ui-popup').hide('slow', function() {
-          
-        });
-        $('.buttonClick').show('slow', function() {
-          
-        });
+        $('.ui-popup').removeClass('show');
+        $('.buttonClick').removeClass('hide');
       });
       $('.popup-decline').click(function() {
-        $('.ui-popup').hide('fast', function() {
-          
-        });
-        $('.buttonClick').show('fast', function() {
-          
-        });
+        $('.ui-popup').removeClass('show');
+        $('.buttonClick').removeClass('hide');
       });
-    }
+    } 
     // initialize every element
     this.each(function() {
       init($(this));
-    });
+    }); 
     return this;
   };
   // start
